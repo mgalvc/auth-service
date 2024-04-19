@@ -21,6 +21,8 @@ cp .env.example .env
 
 This application runs on top of MongoDB, so set `MONGO_URI` with your connection string. Feel free to also change the `PORT` which the server will be running on and the `JWT_SECRET` that will be used to sign tokens.
 
+To pre-populate your DB, run `npm run populate`. This will execute a simple script that will insert an user with fake email address and password. These info will be available on your terminal so that you can use them for testing.
+
 With all that in place, just run `npm run dev` and it will start a development server with `nodemon`.
 
 ## Application structure
